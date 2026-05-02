@@ -4,7 +4,8 @@ const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
 const rateLimit = require('express-rate-limit');
-require('dotenv').config();
+require('dotenv').config({ path: './.env' });
+console.log("ENV CHECK:", process.env.MONGO_URI);
 
 const authRoutes = require('./routes/auth');
 const jobRoutes = require('./routes/jobs');
