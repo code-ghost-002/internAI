@@ -1,2 +1,2 @@
-# internAI
-AI-powered internship &amp; recruitment platform built with MERN stack. Features JWT-based authentication, real-time dashboards for job tracking, and smart resume analysis to match candidates with relevant opportunities
+InternAI — AI-Powered Internship & Recruitment Platform
+A full-stack MERN application that connects students with internship opportunities using AI-powered resume analysis, candidate matching, and cover letter generation.
